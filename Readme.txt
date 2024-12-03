@@ -25,7 +25,7 @@ Folder and files:
 7. pytest.ini - Configures pytest to locate test files and apply default options for test runs.
 
 
-Clone the project from the Repo link -
+Clone the project from the Repo link - https://github.com/zaidshk/gRPC_test_Python.git
 
 
 Install dependencies
