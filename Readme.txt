@@ -23,6 +23,7 @@ Folder and files:
 5. chart.proto - proto file provided with the test assesment
 6. requirements.txt - Lists the Python libraries required for the project.
 7. pytest.ini - Configures pytest to locate test files and apply default options for test runs.
+8. reports - consists the .htm test reports generated after test execution
 
 
 Clone the project from the Repo link - https://github.com/zaidshk/gRPC_test_Python.git
@@ -33,11 +34,11 @@ pip install -r requirements.txt
 
 
 Run Tests: Execute the test_grpc_api.py file using pytest
-Syntax: pytest tests/test_grpc_api.py
+Syntax: python -m pytest tests/
 (Might encounter some issues as the SubscribeRequest method throws error in the client.py file) - Individual test can be executed by clicking on the play button on the test file in pycharm
 To test a duplicate symbol enter "EURUSD" in place of the symbol and you will get "Duplicate candlestick found for EURUSD, skipping validation." message in the output.
 
-Test report: After execution the test report will be generated under test/report/test_report.html. It can be previewed in the in-built browser.
+Test report: After execution the test report will be generated under report/test_report.html. It can be previewed in the in-built browser.
 
 
 
