@@ -35,6 +35,9 @@ pip install -r requirements.txt
 Run Tests: Execute the test_grpc_api.py file using pytest
 Syntax: pytest tests/test_grpc_api.py
 (Might encounter some issues as the SubscribeRequest method throws error in the client.py file) - Individual test can be executed by clicking on the play button on the test file in pycharm
+To test a duplicate symbol enter "EURUSD" in place of the symbol and you will get "Duplicate candlestick found for EURUSD, skipping validation." message in the output.
+
+Test report: After execution the test report will be generated under test/report/test_report.html. It can be previewed in the in-built browser.
 
 
 
